@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+body {
+    background-color: #efb72d;
+    font-family: monospace;
+    font-size: 30px;
+    line-height: 70px;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+p,
+ul,
+ol {
+    font-size: 30px;
+    line-height: 70px;
+}
+ul,
+ol {
+    padding-left: 0;
+    list-style-position: inside;
+}
+a {
+    color: cornsilk;
+}
+a:hover,
+a:visited {
+    color: chocolate;
+}
+a:active {
+    color: burlywood;
+}
+p.caption {
+    font-size: 40px;
+    color: beige;
+    font-style: oblique;
+    margin: 0;
+}
+header {
+    text-align: center;
+    background-color: beige;
+    padding: 10px;
+}
+header .pfp {
+    width: 350px;
+    height: 350px;
+    border: 20px solid #efb72d;
+    border-radius: 60%;
+    background-image: url("./../img/gudetama-pfp.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+}
+header .pfp.Shakipiyo {
+    background-image: url("./../img/shakipiyo2-pfp.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    border-color: #f2df3f;
+}
+
+h1 {
+    line-height: 325px;
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 225px;
+    margin: -50px 0 -80px 0;
+    color: chocolate;
+}
+h2 {
+    line-height: 100px;
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    margin: 20px 0 20px 0;
+    color: #874313;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 125px;
+    }
+
+    h2 {
+        font-size: 80px;
+    }
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+main img {
+    max-width: 100%;
+}
+/*Footer*/
+footer {
+    background-color: rgba(184, 134, 11, 0.42);
+    padding: 20px;
+    text-align: center;
+    margin-top: 120px;
+}
+footer .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+@media (max-width: 600px) {
+    footer p {
+        font-size: 16px;
+    }
+}
