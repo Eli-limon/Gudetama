@@ -53,6 +53,12 @@ header .pfp {
     background-size: cover;
     margin: 0 auto;
 }
+header .pfp.Shakipiyo {
+    background-image: url("./../img/shakipiyo2-pfp.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    border-color: #f2df3f;
+}
 
 h1 {
     line-height: 325px;
